@@ -32,6 +32,16 @@ ifdproxy {
 # For a list of drivers try command 'ifdhandler -i', please
 # notice that not all drivers have serial device capability.
 
+#reader	dynamite_phoenix {
+#	driver = dynamite_phoenix;
+#	device = serial:/dev/ttyUSB0;
+#};
+
+#reader dynamite_smartmouse {
+#	driver = dynamite_smartmouse;
+#	device = serial:/dev/ttyUSB0;
+#};
+
 #reader towitoko {
 #	driver = towitoko;
 #	device = serial:/dev/ttyS0;
